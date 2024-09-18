@@ -5,7 +5,7 @@ import React from 'react';
 
 
 export const metadata = {
-  title: " Metanóia - Imersão Metanóia",
+  title: "Imersão Metanóia - Imersão Metanóia",
 };
 
 

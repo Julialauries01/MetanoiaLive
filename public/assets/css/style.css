@@ -540,7 +540,71 @@ body {
 			margin-bottom: 40px;
 		}
 	}
+	.insc_btns {
+		text-align: center; /* Centraliza o botão */
+		margin-top: 20px; /* Espaçamento superior */
+	}
 	
+	.btn_whatsapp {
+		display: inline-block;
+		padding: 10px 20px; /* Espaçamento interno do botão */
+		font-size: 16px; /* Tamanho da fonte */
+		color: white; /* Cor do texto */
+		background-color: #25D366; /* Cor de fundo (cor do WhatsApp) */
+		border: none; /* Remove borda */
+		border-radius: 8px; /* Bordas arredondadas */
+		text-decoration: none; /* Remove sublinhado */
+		cursor: pointer; /* Altera o cursor para indicar que é clicável */
+		transition: background-color 0.3s ease, transform 0.3s ease; /* Efeito de transição */
+	}
+	
+	.btn_whatsapp:hover {
+		background-color: #128C7E; /* Cor ao passar o mouse (tom mais escuro de verde) */
+		transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
+	}
+	
+	.btn_whatsapp:active {
+		transform: translateY(0); /* Remove a elevação quando o botão é pressionado */
+	}
+	
+	.progress-bar-container {
+		width: 100%;
+		background-color: #e0e0e0;
+		border-radius: 20px;
+		margin: 20px 0;
+	}
+
+	.progress-bar {
+		width: 0%; /* Inicializa em 0% */
+		/* Ajuste essa largura conforme o progresso */
+		background-color: #054655;
+		height: 30px;
+		border-radius: 20px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		animation: growBar 2s ease-in-out forwards; /* Animação de 0% a 90% */
+
+	}
+
+	.progress-text {
+		position: absolute;
+		color: white;
+		font-weight: bold;
+	}
+
+	
+	@keyframes growBar {
+		from {
+			width: 0%;
+		}
+		to {
+			width: 90%;
+		}
+	}
+
+
 	/* Adicionando os estilos do formulário */
 	.form {
 		max-width: 360px; /* Define uma largura máxima para telas menores */
@@ -1588,7 +1652,7 @@ body {
 	.section-top {
 		padding-top: 60px;
 		position: relative;
-		background: url(../img/bg/section-top.jpg);
+	/*	background: url(../img/bg/section-top.jpg); */
 		background-size: cover;
 		background-position: center;
 		padding-bottom: 60px;

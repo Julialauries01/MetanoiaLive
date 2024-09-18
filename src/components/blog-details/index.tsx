@@ -8,7 +8,7 @@ import FooterOne from '@/layouts/footers/FooterOne';
 const BlogDetails = () => {
   return (
     <>
-      <Breadcrumb title="Blog Details" subtitle="Blog Details" />
+      <Breadcrumb title="Complete sua Inscrição" subtitle="Complete sua Inscrição" />
       <BlogDetailsArea />
       <FooterOne />
     </>
