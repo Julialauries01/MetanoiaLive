@@ -18,7 +18,7 @@ const HeroAreaHomeOne = () => {
               <div className="hero-text ht_top">
                 <h1>LIVE DE IMERSÃO</h1>
                 
-                <p> Elimine os bloqueios que te impedem de avançar nessa live imersiva 100% online. </p>
+                <p> Elmine os bloqueios que te impedem de avançar nessa live imersiva 100% online. </p>
                 <p> <strong> Live Gratuita     |     100% Online     |     01/01/2024, às 20h </strong>  
 </p>
               </div>
