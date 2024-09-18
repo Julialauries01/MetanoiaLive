@@ -10,7 +10,7 @@ const HomeOne = () => {
   return (
     <>
        <HeroAreaHomeOne />
-       <CounterAreaHomeOne />
+     {/*  <CounterAreaHomeOne /> */}
        <AboutAreaHomeOne />
        <FooterOne />
     </>

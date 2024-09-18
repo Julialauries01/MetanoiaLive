@@ -12,7 +12,7 @@ const FooterOne = () => {
           <div className="row">
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
-                <Link href="/"><img src="assets/img/logo.png" alt="image-here" /></Link>
+                <Link href="/"><img src="assets/img/logo3.png" alt="image-here" /></Link>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
                 <div className="social_profile">
                   <ul>
@@ -30,12 +30,12 @@ const FooterOne = () => {
               <div className="single_footer">
                 <h4>Our services</h4>
                 <ul>
-                  <li><a href="#">Network protection</a></li>
-                  <li><a href="#">Computer security</a></li>
-                  <li><a href="#">Cyber solution</a></li>
-                  <li><a href="#">Locker security</a></li>
-                  <li><a href="#">Code Inspection</a></li>
-                  <li><a href="#">Folder Duplication</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
                 </ul>
               </div>
             </div>
@@ -43,12 +43,12 @@ const FooterOne = () => {
               <div className="single_footer">
               <h4>Our services</h4>
                 <ul>
-                  <li><a href="#">Network protection</a></li>
-                  <li><a href="#">Computer security</a></li>
-                  <li><a href="#">Cyber solution</a></li>
-                  <li><a href="#">Locker security</a></li>
-                  <li><a href="#">Code Inspection</a></li>
-                  <li><a href="#">Folder Duplication</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
+                  <li><a href="#">Texto</a></li>
                 </ul>
               </div>
             </div>
@@ -56,7 +56,7 @@ const FooterOne = () => {
           <div className="row fc">
             <div className="col-lg-6 col-sm-6 col-xs-12">
               <div className="footer_copyright">
-                <p>&copy; {new Date().getFullYear()}. All Rights Reserved.</p>
+                <p>&copy; {new Date().getFullYear()}. Todos os direitos reservados.</p>
               </div>
             </div>
             <div className="col-lg-6 col-sm-6 col-xs-12">
