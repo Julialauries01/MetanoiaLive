@@ -61,10 +61,10 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-6 col-sm-6 col-xs-12">
               <div className="footer_menu">
-                <ul>
-                  <li><a href="#">Terms of use</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Cookie Policy</a></li>
+              <ul>
+                  <li><a href="#">Termos de uso</a></li>
+                  <li><a href="#">Politica de Privacidade</a></li>
+                  <li><a href="#">Cookie Politica de cookie</a></li>
                 </ul>
               </div>
             </div>
