@@ -24,7 +24,7 @@ const HeroAreaHomeOne = () => {
               </div>
  <div className="home_btns">
  <form className="form" name="enq" onClick={(e) => e.preventDefault()}>
- <h2 className="form-title">Inscreva-see</h2> {/* Título adicionado */}
+ <h2 className="form-title">Inscreva-se</h2> {/* Título adicionado */}
 
   <div className="row">
     <div className="form-group col-md-12">

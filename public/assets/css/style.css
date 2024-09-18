@@ -542,56 +542,76 @@ body {
 	}
 	
 	/* Adicionando os estilos do formulário */
-
-.form {
-  max-width: 300px; /* Define uma largura máxima */
-  padding: 20px;    /* Adiciona um padding interno para espaçamento */
-  background-color: #adc1f7; /* Adiciona uma cor de fundo clara */
-  border-radius: 8px; /* Arredonda os cantos do formulário */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao formulário */
-}
-.form-title {
-  text-align: center; /* Centraliza o título */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
-  font-size: 24px; /* Tamanho da fonte do título */
-  color: #333; /* Cor do texto do título */
-}
-
-
-.form-group {
-  margin-bottom: 8px; /* Adiciona um espaço entre os campos do formulário */
-}
-
-.form-control {
-  padding: 10px;      /* Adiciona mais padding interno */
-  height: 38px;       /* Aumenta a altura dos inputs */
-  border: 1px solid #ccc; /* Define a borda dos inputs */
-  border-radius: 8px; /* Arredonda os cantos dos inputs */
-}
-
-textarea.form-control {
-  height: 100px;      /* Define a altura do textarea */
-  padding: 10px;     /* Adiciona padding interno ao textarea */
-  border: 1px solid #ccc; /* Define a borda do textarea */
-  border-radius: 4px; /* Arredonda os cantos do textarea */
-  resize: vertical;  /* Permite redimensionar o textarea verticalmente */
-}
-
-.btn_one {
-  padding: 5px 20px; /* Define o padding do botão */
-  border: none;      /* Remove a borda padrão do botão */
-  border-radius: 6px; /* Arredonda os cantos do botão */
-  background-color: #007bff; /* Define uma cor de fundo para o botão */
-  color: #fff;       /* Define a cor do texto do botão */
-  font-size: 16px;   /* Aumenta o tamanho da fonte do botão */
-  cursor: pointer;   /* Altera o cursor para indicar que é clicável */
-  transition: background-color 0.3s ease; /* Adiciona uma transição suave para a cor de fundo */
-}
-
-.btn_one:hover {
-  background-color: #0056b3; /* Altera a cor do botão ao passar o mouse sobre ele */
-}
-
+	.form {
+		max-width: 360px; /* Define uma largura máxima para telas menores */
+		padding: 20px;
+		background-color: #adc1f7;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.form-title {
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 24px;
+		color: #333;
+	}
+	
+	.form-group {
+		margin-bottom: 8px;
+	}
+	
+	.form-control {
+		padding: 10px;
+		height: 38px;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+	}
+	
+	textarea.form-control {
+		height: 100px;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		resize: vertical;
+	}
+	
+	.btn_one {
+		padding: 5px 20px;
+		border: none;
+		border-radius: 6px;
+		background-color: #007bff;
+		color: #fff;
+		font-size: 16px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+	
+	.btn_one:hover {
+		background-color: #0056b3;
+	}
+	
+	/* Responsividade */
+	@media (max-width: 600px) {
+		.form {
+			max-width: 60%; /* Faz o formulário ocupar a largura total da tela */
+			padding: 15px;  /* Reduz o padding em telas menores */
+		}
+	
+		.form-title {
+			font-size: 20px; /* Diminui o tamanho da fonte do título */
+		}
+	
+		.form-control {
+			height: 32px; /* Reduz a altura dos campos em telas menores */
+		}
+	
+		.btn_one {
+			width: 100%; /* Faz o botão ocupar a largura total do formulário */
+			padding: 10px; /* Aumenta o padding para um clique mais confortável */
+		}
+	}
+	
 
 
 	.video-play {
