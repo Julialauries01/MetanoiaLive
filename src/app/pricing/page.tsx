@@ -1,12 +1,12 @@
 
 
-import Pricing from '@/components/pricing';
+{/*import Pricing from '@/components/pricing'; */}
 import Wrapper from '@/layouts/Wrapper';
 import React from 'react';
 
 
 export const metadata = {
-  title: "Cybal Pricing - Cyber Security Next js Template",
+  title: "Metanóia Pricing - Imersão Metanóia",
 };
 
 
@@ -14,7 +14,7 @@ export const metadata = {
 const index = () => {
   return (
     <Wrapper>
-      <Pricing />
+     {/*  <Pricing /> */}
     </Wrapper>
   );
 };

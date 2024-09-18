@@ -1,6 +1,6 @@
 /*
 Author       : theme_ocean
-Template Name: Cybal - Cyber Security HTML Template
+Template Name: Metanóia - Cyber Security HTML Template
 Version      : 1.0
 */
 /*=============================================================
@@ -462,7 +462,7 @@ body {
 	* ----------------------------------------------------------------------------------------
 	*/
 	.home_bg {
-		height: 800px;
+		height: 100vh;
 		position:relative;
 	}
 	.home_bg::before {    
@@ -476,13 +476,13 @@ body {
 	}
 	@media only screen and (max-width:768px){
 	.home_bg {
-		height: auto;
+		height: 110vh;
 		position:relative;
 	}
-	.hb_height {height: 800px;}
+	.hb_height {height: 100vh;}
 	}
-	@media only screen and (max-width:480px){
-	.hb_height {height: 600px;}
+	@media only screen and (max-width:880px){
+	.hb_height {height: 105vh;}
 	}
 	.hero-text{position:relative;}
 	.hero-text h1 {
@@ -494,7 +494,9 @@ body {
 		padding-top: 250px;
 		margin-bottom: 20px;
 	}
-	.ht_top h1 {padding-top:150px;}
+
+
+	.ht_top h1 {padding-top:100px;}
 	.ht2 h1 {
 		font-size: 54px;
 	}
@@ -502,10 +504,10 @@ body {
 	.hero-text h1 {font-size: 44px;line-height: 54px;}
 	}
 	@media only screen and (max-width:768px){
-	.hero-text h1 {padding-top:50px;font-size: 34px;line-height: 44px;}
+	.hero-text h1 {padding-top:30px;font-size: 30px;line-height: 44px;}
 	}
 	@media only screen and (max-width:768px){
-	.ht_top h1 {padding-top:150px;}
+	.ht_top h1 {padding-top:50px;}
 	}
 	.hero-text p {
 		width:80%;
@@ -528,6 +530,7 @@ body {
 	}
 	.home_btns {
 		position: relative;
+	
 	}
 	.home_btns a {
 		display: inline;
@@ -539,23 +542,31 @@ body {
 	}
 	
 	/* Adicionando os estilos do formulário */
+
 .form {
   max-width: 300px; /* Define uma largura máxima */
   padding: 20px;    /* Adiciona um padding interno para espaçamento */
-  background-color: #f9f9f9; /* Adiciona uma cor de fundo clara */
+  background-color: #adc1f7; /* Adiciona uma cor de fundo clara */
   border-radius: 8px; /* Arredonda os cantos do formulário */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve ao formulário */
 }
+.form-title {
+  text-align: center; /* Centraliza o título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  font-size: 24px; /* Tamanho da fonte do título */
+  color: #333; /* Cor do texto do título */
+}
+
 
 .form-group {
-  margin-bottom: 15px; /* Adiciona um espaço entre os campos do formulário */
+  margin-bottom: 8px; /* Adiciona um espaço entre os campos do formulário */
 }
 
 .form-control {
   padding: 10px;      /* Adiciona mais padding interno */
-  height: 40px;       /* Aumenta a altura dos inputs */
+  height: 38px;       /* Aumenta a altura dos inputs */
   border: 1px solid #ccc; /* Define a borda dos inputs */
-  border-radius: 4px; /* Arredonda os cantos dos inputs */
+  border-radius: 8px; /* Arredonda os cantos dos inputs */
 }
 
 textarea.form-control {
@@ -567,9 +578,9 @@ textarea.form-control {
 }
 
 .btn_one {
-  padding: 10px 20px; /* Define o padding do botão */
+  padding: 5px 20px; /* Define o padding do botão */
   border: none;      /* Remove a borda padrão do botão */
-  border-radius: 4px; /* Arredonda os cantos do botão */
+  border-radius: 6px; /* Arredonda os cantos do botão */
   background-color: #007bff; /* Define uma cor de fundo para o botão */
   color: #fff;       /* Define a cor do texto do botão */
   font-size: 16px;   /* Aumenta o tamanho da fonte do botão */

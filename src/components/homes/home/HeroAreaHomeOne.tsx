@@ -17,12 +17,15 @@ const HeroAreaHomeOne = () => {
             <div className="col-lg-7 col-sm-12 col-xs-12">
               <div className="hero-text ht_top">
                 <h1>LIVE DE IMERSÃO</h1>
+                
                 <p> Elimine os bloqueios que te impedem de avançar nessa live imersiva 100% online. </p>
                 <p> <strong> Live Gratuita     |     100% Online     |     01/01/2024, às 20h </strong>  
 </p>
               </div>
  <div className="home_btns">
  <form className="form" name="enq" onClick={(e) => e.preventDefault()}>
+ <h2 className="form-title">Inscreva-se</h2> {/* Título adicionado */}
+
   <div className="row">
     <div className="form-group col-md-12">
       <input type="text" name="name" className="form-control" placeholder="Digite seu nome e sobrenome" required />
@@ -33,6 +36,9 @@ const HeroAreaHomeOne = () => {
     <div className="form-group col-md-12">
       <input type="text" name="phone" className="form-control" placeholder="Digite seu telefone" required />
     </div>
+<div className="form-group col-md-12">
+      <input type="text" name="phone" className="form-control" placeholder="Sua renda salarial" required />
+    </div> 
     <div className="col-md-12 text-center">
       <button type="submit" className="btn_one" title="Enviar">Enviar</button>
     </div>

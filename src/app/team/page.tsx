@@ -5,7 +5,7 @@ import React from 'react';
 
 
 export const metadata = {
-  title: "Cybal Team - Cyber Security Next js Template",
+  title: "Metanóia Team - Imersão Metanóia",
 };
 
 const index = () => {
