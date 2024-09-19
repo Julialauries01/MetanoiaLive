@@ -1,5 +1,4 @@
 
-import About from '@/components/about';
 import Wrapper from '@/layouts/Wrapper';
 import React from 'react';
 
@@ -11,7 +10,7 @@ export const metadata = {
 const index = () => {
   return (
     <Wrapper>
-      <About />
+
     </Wrapper>
   );
 };

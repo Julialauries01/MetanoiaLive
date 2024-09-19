@@ -33,7 +33,9 @@ const BlogDetailsArea = () => {
                 </p>
 
                 <div className="insc_btns">
-  <Link href="wa.link/wf9jci" className="btn_whatsapp">Entrar agora no WhaAtsApp</Link> 
+  <a href="https://wa.link/wf9jci" target="_blank" rel="noopener noreferrer" className="btn_whatsapp">
+    Entrar agora no WhatsApp
+  </a>
 </div>
 
               </div>

@@ -25,16 +25,6 @@ const menu_data: DataType[] = [
     ]
   },
   {
-    id: 2,
-    title: 'About',
-    link: '#',
-    has_dropdown: true,
-    sub_menus: [
-      { title: 'About 01', link: '/about' },
-      { title: 'About 02', link: '/about-2' },
-    ]
-  },
-  {
     id: 3,
     title: 'Services',
     link: '#',
