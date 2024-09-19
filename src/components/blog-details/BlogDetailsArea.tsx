@@ -33,7 +33,7 @@ const BlogDetailsArea = () => {
                 </p>
 
                 <div className="insc_btns">
-  <Link href="/about" className="btn_whatsapp">Entrar agora no WhatsApp</Link> 
+  <Link href="wa.link/wf9jci" className="btn_whatsapp">Entrar agora no WhatsApp</Link> 
 </div>
 
               </div>
