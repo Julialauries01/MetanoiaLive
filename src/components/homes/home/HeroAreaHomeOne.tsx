@@ -24,8 +24,8 @@ const HeroAreaHomeOne = () => {
               </div>
  <div className="home_btns">
 
- <form action="https://api.sheetmonkey.io/form/fdihVzjN9sgM9QGKZbP3dT" method="post" className="form" name="enq" >
- <h2 className="form-title">Inscreva-se</h2> {/* Título adicionado */}
+ <form action="https://api.sheetmonkey.io/form/fdihVzjN9sgM9QGKZbP3dT" method="post"className="form" name="enq" >
+ <h2 className="form-title">Inscreva-see</h2> {/* Título adicionado */}
 
   <div className="row">
     <div className="form-group col-md-12">
