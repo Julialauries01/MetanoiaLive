@@ -1,6 +1,5 @@
 
 
-import Contact from '@/components/contact';
 import Wrapper from '@/layouts/Wrapper';
 import React from 'react';
 
@@ -12,7 +11,6 @@ export const metadata = {
 const index = () => {
   return (
     <Wrapper>
-      <Contact />
     </Wrapper>
   );
 };
