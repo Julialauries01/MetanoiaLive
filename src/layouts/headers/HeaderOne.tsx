@@ -34,20 +34,7 @@ const menu_data: DataType[] = [
       { title: 'Services Deails', link: '/service-details' },
     ]
   },
-  {
-    id: 4,
-    title: 'Pages',
-    link: '#',
-    has_dropdown: true,
-    sub_menus: [
-      { title: 'Project', link: '/project' },
-      { title: 'Project Details', link: '/project-details' },
-      { title: 'Pricing Plan', link: '/pricing' },
-      { title: 'Team', link: '/team' },
-      { title: 'Faq Page', link: '/faq' },
-      { title: '404', link: '/404' },
-    ]
-  },
+  
   {
     id: 5,
     title: 'Blog',
@@ -58,12 +45,7 @@ const menu_data: DataType[] = [
       { title: 'Blog Details', link: '/blog-details' },
     ]
   },
-  {
-    id: 5,
-    title: 'Contact',
-    link: '/contact',
-    has_dropdown: false,
-  },
+
 ]
 
 const HeaderOne = () => {

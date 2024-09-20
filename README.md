@@ -1,6 +1,7 @@
 
 ### Developer
-- jamilrayhan100@gmail.com# Metanoia
+- Julialauriesilva@gmail.com# Metanoia
 # ImersaoMetanoia
 # LiveMetanoia
 # LiveMetanoia
+# MetanoiaLive

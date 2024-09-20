@@ -740,6 +740,7 @@ body {
 	* 05.START COUNTER DESIGN
 	* ----------------------------------------------------------------------------------------
 	*/
+	
 	.count_area {
 		margin-top: -100px;
 		padding-bottom:80px;
@@ -1069,7 +1070,7 @@ body {
 		font-size: 20px;
 	}
 	/*START PROJECT DETAILS*/
-	
+	/*
 	.single_port_details img {
 		width: 100%;
 		border-radius: 10px;
