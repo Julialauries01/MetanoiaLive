@@ -1069,7 +1069,7 @@ body {
 		font-size: 20px;
 	}
 	/*START PROJECT DETAILS*/
-	.single_port_details{}
+	
 	.single_port_details img {
 		width: 100%;
 		border-radius: 10px;
@@ -1086,13 +1086,13 @@ body {
 		float: left;
 		margin-bottom: 30px;
 	}
-	.single_port_details ul li{}
+	
 	.single_port_details > ul > li > img {
 		width: 20px;
 		margin-bottom: 0;
 		margin-right: 10px;
 	}
-	.port_details_list{}
+
 	
 	.about_project_details {
 		background: #1a2237;

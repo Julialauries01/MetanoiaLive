@@ -13,7 +13,7 @@ const FooterOne = () => {
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
                 <Link href="/"><img src="assets/img/logo3.png" alt="image-here" /></Link>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim.</p>
+                <p>Quando a SK trabalha a expansão da sua consciência, sua essência volta a brilhar de dentro para fora, iluminando a escuridão do seu inconsciente.</p>
                 <div className="social_profile">
                   <ul>
                     <li><a href="#" className="f_facebook"><i className="ti-facebook" title="Facebook"></i></a></li>
@@ -28,7 +28,7 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
-                <h4>Our services</h4>
+                <h4>Nossos serviços</h4>
                 <ul>
                   <li><a href="#">Texto</a></li>
                   <li><a href="#">Texto</a></li>
@@ -41,14 +41,11 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-3 col-sm-6 col-xs-12">
               <div className="single_footer">
-              <h4>Our services</h4>
+              <h4>Contato Suporte</h4>
                 <ul>
-                  <li><a href="#">Texto</a></li>
-                  <li><a href="#">Texto</a></li>
-                  <li><a href="#">Texto</a></li>
-                  <li><a href="#">Texto</a></li>
-                  <li><a href="#">Texto</a></li>
-                  <li><a href="#">Texto</a></li>
+                  <li>Telefone/Whatsapp:<a href="#"> (16) 9993404-4241</a></li>
+                  <li>Email: <a href="mailto:julialauriesilva@gmail.com">julialauriesilva@gmail.com</a></li>
+   
                 </ul>
               </div>
             </div>
