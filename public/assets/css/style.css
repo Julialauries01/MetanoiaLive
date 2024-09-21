@@ -462,7 +462,7 @@ body {
 	* ----------------------------------------------------------------------------------------
 	*/
 	.home_bg {
-		height: 120vh;
+		min-height: 130vh;
 		position:relative;
 	}
 	.home_bg::before {    
@@ -474,12 +474,20 @@ body {
 			right: 0;
 			background: rgba(7, 41, 77, 0.1);
 	}
+	@media only screen and (max-width:668px){
+		.home_bg {
+			height: 135vh;
+			position:relative;
+		}
+	}
+
 	@media only screen and (max-width:768px){
 	.home_bg {
-		height: 110vh;
+		min-height: 120vh;
 		position:relative;
 	}
-	.hb_height {height: 100vh;}
+
+	.hb_height {height: 120vh;}
 	}
 	@media only screen and (max-width:880px){
 	.hb_height {height: 105vh;}
