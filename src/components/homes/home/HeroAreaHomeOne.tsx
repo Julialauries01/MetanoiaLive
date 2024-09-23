@@ -27,8 +27,6 @@ const HeroAreaHomeOne = () => {
 
  <form action="https://api.sheetmonkey.io/form/fdihVzjN9sgM9QGKZbP3dT" method="post"className="form" name="enq" >
  <h2 className="form-title">Inscreva-se</h2>
-
-
   <div className="row">
     <div className="form-group col-md-12">
       <input type="text" name="name" className="form-control" placeholder="Digite seu nome e sobrenome" required />
@@ -39,9 +37,6 @@ const HeroAreaHomeOne = () => {
     <div className="form-group col-md-12">
       <input type="text" name="phone" className="form-control" placeholder="Digite seu telefone" required />
     </div>
-<div className="form-group col-md-12">
-      <input type="text" name="salario" className="form-control" placeholder="Sua renda salarial" required />
-    </div> 
     <div className="col-md-12 text-center">
       <button type="submit" className="btn_one" title="Enviar">Enviar</button>
     </div>
