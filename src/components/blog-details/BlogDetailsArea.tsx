@@ -37,7 +37,7 @@ const BlogDetailsArea = () => {
      <input type="text" name="cidade" className="form-control" placeholder="Qual sua cidade ?" required />
    </div>
    <div className="form-group col-md-12">
-     <input type="email" name="renda" className="form-control" placeholder="Qual sua renda média mensal ?." required />
+     <input type="text" name="renda" className="form-control" placeholder="Qual sua renda média mensal ?." required />
    </div>
    <div className="form-group col-md-12">
    <select name="regime" className="form-control" required defaultValue="selecione">
