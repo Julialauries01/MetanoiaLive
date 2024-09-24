@@ -68,6 +68,9 @@ body {
 	p {
 			margin-bottom: 0;
 	}
+	.strong{
+		color: #128C7E;
+	}
 	ul,
 	li {
 			margin: 0;
@@ -462,7 +465,11 @@ body {
 	* ----------------------------------------------------------------------------------------
 	*/
 	.home_bg {
-		min-height: 130vh;
+		min-height: 800px;
+		position:relative;
+	}
+	.home_bg2{
+		min-height: 950px;
 		position:relative;
 	}
 	.home_bg::before {    
@@ -636,7 +643,7 @@ body {
 	
 	.form-control {
 		padding: 10px;
-		height: 38px;
+		height: 44px;
 		border: 1px solid #ccc;
 		border-radius: 8px;
 	}
@@ -678,7 +685,9 @@ body {
 		.form-control {
 			height: 32px; /* Reduz a altura dos campos em telas menores */
 		}
-	
+		.form-control option[value="selecione"] {
+			color: #ccc;
+		}
 		.btn_one {
 			width: 100%; /* Faz o botão ocupar a largura total do formulário */
 			padding: 10px; /* Aumenta o padding para um clique mais confortável */

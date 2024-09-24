@@ -4,70 +4,49 @@ import React from 'react';
 import Link from 'next/link';
 
 const BlogArea = () => {
+ 
   return (
     <>
-      <section className="blog_area section-padding">
+      <section className="home_bg hb_height"
+        style={{ backgroundImage: `url(/assets/img/bg/home-bg.jpg)`, backgroundSize: "cover", backgroundPosition: "center center" }}>
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-              <div className="single_blog">
-                <img src="assets/img/blog/1.jpg" className="img-fluid" alt="image" />
-                  <span><Link href="/blog-details">Security</Link></span>
-                  <span>February 15, 2024</span>
-                  <h3><Link href="/blog">How can you improvement to your business policy for the better product.</Link></h3>
-                  <Link href="/blog" className="blog_btn">View Details <i className="ti-arrow-top-right"></i></Link>
+            <div className="col-lg-7 col-sm-12 col-xs-12">
+              <div className="hero-text ht_top">
+                <h1>FALTA APENAS UM PASSO!</h1>
+                
+                <p>O ultimo passo é entrar agora no grupo de WhatsApp pra ficar por dentro de tudo e receber o link do encontro.
+                </p>
+
+                <div className="progress-bar-container">
+                  <div className="progress-bar">
+                    <span className="progress-text">90%</span>
+                  
+                  </div>
+                </div>
+
+                <p>Toque agora no botão abaixo e entre no grupo 👇🏻
+
+                </p>
+
+                <div className="insc_btns">
+  <a href="https://wa.link/wf9jci" target="_blank" rel="noopener noreferrer" className="btn_whatsapp">
+    Entrar agora no WhatsApp
+  </a>
+</div>
+
               </div>
-            </div>
-            <div className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-              <div className="single_blog">
-                <img src="assets/img/blog/2.jpg" className="img-fluid" alt="image" />
-                  <span><Link href="/blog-details">Security</Link></span>
-                  <span>February 15, 2024</span>
-                  <h3><Link href="/blog">people poputation change anything what your need for your next generation.</Link></h3>
-                  <Link href="/blog" className="blog_btn">View Details <i className="ti-arrow-top-right"></i></Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-              <div className="single_blog">
-                <img src="assets/img/blog/3.jpg" className="img-fluid" alt="image" />
-                  <span><Link href="/blog-details">Security</Link></span>
-                  <span>February 15, 2024</span>
-                  <h3><Link href="/blog">Improve your business so that you can stay in your local business in next month.</Link></h3>
-                  <Link href="/blog" className="blog_btn">View Details <i className="ti-arrow-top-right"></i></Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-              <div className="single_blog">
-                <img src="assets/img/blog/4.jpg" className="img-fluid" alt="image" />
-                  <span><Link href="/blog-details">Security</Link></span>
-                  <span>February 15, 2024</span>
-                  <h3><Link href="/blog">A significant shift in mindset is required to support either type of side project.</Link></h3>
-                  <Link href="/blog" className="blog_btn">View Details <i className="ti-arrow-top-right"></i></Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-              <div className="single_blog">
-                <img src="assets/img/blog/5.jpg" className="img-fluid" alt="image" />
-                  <span><Link href="/blog-details">Security</Link></span>
-                  <span>February 15, 2024</span>
-                  <h3><Link href="/blog">Population change anything what your need for your next generation.</Link></h3>
-                  <Link href="/blog" className="blog_btn">View Details <i className="ti-arrow-top-right"></i></Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-              <div className="single_blog">
-                <img src="assets/img/blog/6.jpg" className="img-fluid" alt="image" />
-                  <span><Link href="/blog-details">Security</Link></span>
-                  <span>February 15, 2024</span>
-                  <h3><Link href="/blog">How to Improve your business so that you can stay in your local business.</Link></h3>
-                  <Link href="/blog" className="blog_btn">View Details <i className="ti-arrow-top-right"></i></Link>
-              </div>
+
+
             </div>
           </div>
         </div>
+
+        
       </section>
     </>
   );
 };
+
 
 export default BlogArea;
