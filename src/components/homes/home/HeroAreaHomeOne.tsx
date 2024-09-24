@@ -20,8 +20,7 @@ const HeroAreaHomeOne = () => {
                 
                 <p> Você está a um passo de desbloquear todo o seu potencial!
                 Participe da Imersão Metanoia, uma experiência transformadora que vai eliminar os bloqueios que te impedem de avançar. Nesta Live, você irá expandir sua consciência e finalmente se libertar do que está te travando. </p>
-                <p> <strong> Live Gratuita      |     100% Online     |     01/01/2024, às 20h </strong>  
-</p>
+                <p> <strong className="strong">Live Gratuita | 100% Online | 01/01/2024, às 20h</strong></p>
               </div>
  <div className="home_btns">
 
